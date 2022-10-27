@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.container {
+  background-color: white;
+  min-height: 100vh;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+}
+textarea {
+  display: block;
+  margin-top: 10px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 45px;
+  color: #1e293b;
+}
+.para {
+  color: #475569;
+}
+.button {
+  border: none;
+  background-color: #0284c7;
+  color: white;
+  width: 100px;
+  padding: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.inside-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+hr {
+  height: 1px;
+  width: 100%;
+}
+.comment-count {
+  color: #475569;
+}
+span {
+  background-color: #0ea5e9;
+  color: white !important;
+  padding: 7px;
+  border-radius: 3px;
+}
+.unorder-list {
+  list-style-type: none;
+  padding: 0px;
+}
